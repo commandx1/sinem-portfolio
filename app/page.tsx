@@ -26,7 +26,7 @@ export default function Home() {
                                 <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy-700'>
                                     Sinem Odalı Belen
                                 </h1>
-                                <p className='text-xl text-pink-300 font-medium'>İK & İdari İşler Yöneticisi</p>
+                                <p className='text-xl text-pink-300 font-medium'>{t('Pink')}</p>
                                 <p className='max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400'>
                                     "{t('ThePoint')}"
                                 </p>
@@ -124,7 +124,7 @@ export default function Home() {
             </motion.section>
 
             {/* Latest Articles Preview */}
-           {/*  <motion.section
+            {/*  <motion.section
                 className='w-full py-12 md:py-24 lg:py-32 bg-white'
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}

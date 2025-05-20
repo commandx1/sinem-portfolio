@@ -32,7 +32,7 @@ const AboutPage = () => {
                                 <p>{t('Desc3')}</p>
                             </div>
                             <div className='flex flex-col gap-2 min-[400px]:flex-row'>
-                                <Link href='/contact'>
+                                <Link href='/iletisim'>
                                     <Button className='bg-navy-700 hover:bg-navy-800'>
                                         {t('Btn1')}
                                         <ArrowRight className='ml-2 h-4 w-4' />

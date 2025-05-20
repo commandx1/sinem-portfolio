@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sinemodalibelen.com
+
+# Sitemaps
+Sitemap: https://sinemodalibelen.com/sitemap.xml

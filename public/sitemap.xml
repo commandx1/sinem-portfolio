@@ -1,18 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sinemodalibelen.com/</loc>
-  </url>
-  <url>
-    <loc>https://sinemodalibelen.com/hakkimda</loc>
-  </url>
-  <url>
-    <loc>https://sinemodalibelen.com/uzmanliklar</loc>
-  </url>
-  <url>
-    <loc>https://sinemodalibelen.com/blog-yazilari</loc>
-  </url>
-  <url>
-    <loc>https://sinemodalibelen.com/iletisim</loc>
-  </url>
-</urlset> 
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap><loc>https://sinemodalibelen.com/sitemap-0.xml</loc></sitemap>
+</sitemapindex>

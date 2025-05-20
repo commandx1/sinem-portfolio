@@ -1,13 +1,21 @@
+'use client'
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Award, BookOpen, Building, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { motion } from 'framer-motion';
 
 export default function Home() {
     return (
         <main className='flex flex-col min-h-screen'>
             {/* Hero Section */}
-            <section className='w-full py-12 md:py-24 lg:py-32 bg-white'>
+            <motion.section
+                className='w-full py-12 md:py-24 lg:py-32 bg-white'
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7 }}
+            >
                 <div className='container px-4 md:px-6'>
                     <div className='grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]'>
                         <div className='flex flex-col justify-center space-y-4'>
@@ -57,10 +65,15 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </motion.section>
 
             {/* Expertise Preview Section */}
-            <section className='w-full py-12 md:py-24 lg:py-32 bg-beige-50'>
+            <motion.section
+                className='w-full py-12 md:py-24 lg:py-32 bg-beige-50'
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, delay: 0.2 }}
+            >
                 <div className='container px-4 md:px-6'>
                     <div className='flex flex-col items-center justify-center space-y-4 text-center'>
                         <div className='space-y-2'>
@@ -117,10 +130,15 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </motion.section>
 
             {/* Latest Articles Preview */}
-            <section className='w-full py-12 md:py-24 lg:py-32 bg-white'>
+            <motion.section
+                className='w-full py-12 md:py-24 lg:py-32 bg-white'
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7, delay: 0.4 }}
+            >
                 <div className='container px-4 md:px-6'>
                     <div className='flex flex-col items-center justify-center space-y-4 text-center'>
                         <div className='space-y-2'>
@@ -218,7 +236,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-            </section>
+            </motion.section>
         </main>
     );
 }

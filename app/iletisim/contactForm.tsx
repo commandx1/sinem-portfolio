@@ -7,13 +7,19 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import useForm from '@/hooks/useForm';
+import { motion } from 'framer-motion';
 
 const ContactForm = () => {
     const { handleChange, handleSubmit, loading, formData } = useForm();
 
     return (
         <main className='flex flex-col min-h-screen'>
-            <section className='w-full py-12 md:py-24 lg:py-32 bg-white'>
+            <motion.section
+                className='w-full py-12 md:py-24 lg:py-32 bg-white'
+                initial={{ opacity: 0, y: 40 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.7 }}
+            >
                 <div className='container px-4 md:px-6'>
                     <div className='flex flex-col items-center justify-center space-y-4 text-center'>
                         <div className='space-y-2'>
@@ -151,7 +157,7 @@ const ContactForm = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </motion.section>
         </main>
     );
 };

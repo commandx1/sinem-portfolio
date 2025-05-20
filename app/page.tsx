@@ -50,12 +50,12 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='flex items-center justify-center'>
-                            <div className='relative h-[450px] w-[350px] overflow-hidden rounded-xl'>
+                            <div className='relative h-[450px] max-w-[350px] w-full overflow-hidden rounded-xl'>
                                 <Image
                                     src='/sinem.jpeg?height=900&width=700'
                                     alt='Sinem Odalı Belen - HR Executive'
                                     fill
-                                    className='object-cover'
+                                    className='object-cover w-full h-full'
                                     priority
                                 />
                             </div>

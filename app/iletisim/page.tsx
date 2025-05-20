@@ -9,6 +9,11 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import useForm from '../../hooks/useForm';
 
+export const metadata = {
+    title: 'İletişim | Sinem Odalı Belen',
+    description: 'İK ve İdari İşler alanında deneyimli yönetici Sinem Odalı Belen ile iletişime geçebilirsiniz.'
+};
+
 export default function ContactPage() {
     const { handleChange, handleSubmit, loading, formData } = useForm();
 

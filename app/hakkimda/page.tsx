@@ -85,78 +85,69 @@ export default function AboutPage() {
                             <div className='absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-navy-700'></div>
                             <div className='mb-2'>
                                 <span className='inline-block rounded bg-pink-100 px-3 py-1 text-sm font-medium text-navy-700'>
-                                    2020 - Present
+                                    2016 - 2024
                                 </span>
                             </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Global İK & İdari İşler Direktörü</h3>
-                            <p className='text-lg text-gray-600 mb-1'>XYZ International Corporation</p>
-                            <ul className='list-disc pl-5 text-gray-500 space-y-1'>
-                                <li>5 global ofiste 25 kişilik İK ekibine liderlik ettim</li>
-                                <li>
-                                    Performans yönetim sistemini yeniden tasarlayarak çalışan memnuniyetini %32 artırdım
-                                </li>
-                                <li>İdari süreçleri sadeleştirerek operasyonel maliyetleri %18 azalttım</li>
-                                <li>Çeşitlilik ve kapsayıcılık girişimleriyle iş gücü çeşitliliğini %27 artırdım</li>
-                            </ul>
-                        </div>
-
-                        {/* Timeline Item 2 */}
-                        <div className='relative pl-8 pb-12 border-l border-gray-200'>
-                            <div className='absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-navy-700'></div>
-                            <div className='mb-2'>
-                                <span className='inline-block rounded bg-pink-100 px-3 py-1 text-sm font-medium text-navy-700'>
-                                    2015 - 2020
-                                </span>
-                            </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Kıdemli İK Müdürü</h3>
-                            <p className='text-lg text-gray-600 mb-1'>ABC Tech Solutions</p>
-                            <ul className='list-disc pl-5 text-gray-500 space-y-1'>
-                                <li>Kapsamlı bir yetenek kazanım stratejisi geliştirdim ve uyguladım</li>
-                                <li>Liderlik gelişim programı oluşturarak %40 iç terfi oranı sağladım</li>
-                                <li>200'den 800'e hızla büyüyen bir organizasyonun İK operasyonlarını yönettim</li>
-                                <li>Şirket genelinde kültürel dönüşüm projesine liderlik ettim</li>
-                            </ul>
-                        </div>
-
-                        {/* Timeline Item 3 */}
-                        <div className='relative pl-8 pb-12 border-l border-gray-200'>
-                            <div className='absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-navy-700'></div>
-                            <div className='mb-2'>
-                                <span className='inline-block rounded bg-pink-100 px-3 py-1 text-sm font-medium text-navy-700'>
-                                    2010 - 2015
-                                </span>
-                            </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>İK İş Ortağı</h3>
-                            <p className='text-lg text-gray-600 mb-1'>Global Innovations Inc.</p>
+                            <h3 className='text-xl font-bold text-navy-700 mb-2'>İK & İdari İşler Müdürü</h3>
+                            <p className='text-lg text-gray-600 mb-1'>VUR-MAK VURUSKAN MAKİNA SAN. VE TİC. A.S</p>
                             <ul className='list-disc pl-5 text-gray-500 space-y-1'>
                                 <li>
-                                    İK stratejisini iş hedefleriyle uyumlu hale getirmek için üst yönetimle birlikte
-                                    çalıştım
+                                    300+ çalışanın bulunduğu üretim tesisinde tam kapsamlı İK süreçlerini yönettim; işe
+                                    alım, oryantasyon, performans yönetimi, bordrolama ve işten çıkış görüşmeleri dahil
+                                    olmak üzere çalışan yaşam döngüsünün her aşamasını kapsayan sistemler geliştirdim.
                                 </li>
-                                <li>Birden fazla iş biriminde (300+ çalışan) tam çalışan yaşam döngüsünü yönettim</li>
-                                <li>Oryantasyon sürecini yeniden tasarlayarak işe başlama süresini %25 azalttım</li>
                                 <li>
-                                    Çalışan bağlılığını ve elde tutmayı artırmak için çapraz fonksiyonel projeler
-                                    yönettim
+                                    İş Kanunu, SGK ve İSG mevzuatlarına tam hakimiyetle şirketin tüm yasal süreçlerini
+                                    sorunsuz yürüttüm; eksik gün bildirimi, SGK tahakkuku, BES işlemleri, E-Vizite
+                                    süreçleri ve resmi kurum yazışmalarını eksiksiz yönettim.
                                 </li>
-                            </ul>
-                        </div>
-
-                        {/* Timeline Item 4 */}
-                        <div className='relative pl-8 border-l border-gray-200'>
-                            <div className='absolute left-[-8px] top-0 h-4 w-4 rounded-full bg-navy-700'></div>
-                            <div className='mb-2'>
-                                <span className='inline-block rounded bg-pink-100 px-3 py-1 text-sm font-medium text-navy-700'>
-                                    2007 - 2010
-                                </span>
-                            </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>İK Uzmanı</h3>
-                            <p className='text-lg text-gray-600 mb-1'>Enterprise Solutions Ltd.</p>
-                            <ul className='list-disc pl-5 text-gray-500 space-y-1'>
-                                <li>Çeşitli departmanlarda işe alım ve seçme süreçlerini yönettim</li>
-                                <li>Çalışanlar ve yöneticiler için eğitim programları geliştirdim ve sundum</li>
-                                <li>Yan haklar ve ücret programlarını yönettim</li>
-                                <li>Organizasyonel değişim yönetimi girişimlerini destekledim</li>
+                                <li>
+                                    Bordrolama ve puantaj takibi süreçlerini dijitalleştirerek operasyonel verimliliği
+                                    %20 artırdım, maliyetlendirme analizleriyle İK bütçesinde %15 optimizasyon sağladım.
+                                </li>
+                                <li>
+                                    Fabrika genelinde servis, güvenlik, temizlik, yemek gibi idari hizmetlerin
+                                    kesintisiz ve verimli yürütülmesini sağladım; bu süreçlerdeki sadeleştirmelerle
+                                    operasyonel maliyetlerde %18 düşüş sağladım.
+                                </li>
+                                <li>
+                                    İşe giriş-çıkış süreçlerinde özlük dosyalarının KVKK’ya uygun şekilde hazırlanmasını
+                                    ve güncel tutulmasını sağlayarak denetimlerde %100 uyum elde ettim.
+                                </li>
+                                <li>
+                                    Yıllık izin, maaş avansı, geçici görev takibi gibi kritik personel yönetimi
+                                    alanlarında manuel süreçleri dijital sistemlere entegre ederek hata oranını minimize
+                                    ettim.
+                                </li>
+                                <li>
+                                    Mavi ve beyaz yaka çalışanların pasaport ve vize işlemlerini yürüterek yurt dışı
+                                    görevlendirmelerde gecikmeleri önledim.
+                                </li>
+                                <li>
+                                    Performans değerlendirme sistemini yeniden kurgulayarak çalışan memnuniyetini %32
+                                    artırdım; bu doğrultuda iç terfi oranlarını yükseltmek için liderlik gelişim
+                                    programları oluşturup %40 iç terfi oranı sağladım.
+                                </li>
+                                <li>
+                                    İSG Uzmanları ile koordineli çalışarak iş sağlığı ve güvenliği kültürünü
+                                    güçlendirdim; atık bertaraf süreçlerinde çevre mevzuatına tam uyum sağladım.
+                                </li>
+                                <li>
+                                    Kariyer yönetimi ve eğitim ihtiyaç analizi doğrultusunda gelişim planları oluşturup
+                                    personelin bireysel hedefleriyle kurumsal hedefleri uyumlu hale getirdim.
+                                </li>
+                                <li>
+                                    Çalışan bağlılığını artırmak için memnuniyet anketleri düzenledim ve motivasyon
+                                    artırıcı etkinlikler planladım.
+                                </li>
+                                <li>
+                                    Resmî Gazete’yi günlük takip ederek yasal düzenlemeleri anlık olarak süreçlere
+                                    entegre ettim.
+                                </li>
+                                <li>
+                                    Microsoft Office ve CANIAS ERP sistemlerine ileri düzeyde hakimiyetle tüm İK
+                                    süreçlerinde teknolojiyi etkin kullandım.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -173,16 +164,14 @@ export default function AboutPage() {
                             </h2>
                             <div className='space-y-8'>
                                 <div className='space-y-2'>
-                                    <h3 className='text-xl font-bold text-navy-700'>İşletme Yüksek Lisansı (MBA)</h3>
-                                    <p className='text-gray-600'>Harvard Business School</p>
-                                    <p className='text-gray-500'>2012 - 2014</p>
+                                    <h3 className='text-xl font-bold text-navy-700'>Sosyoloji</h3>
+                                    <p className='text-gray-600'>Anadolu Üniversitesi</p>
+                                    <p className='text-gray-500'>2023 - Devam Ediyor</p>
                                 </div>
                                 <div className='space-y-2'>
-                                    <h3 className='text-xl font-bold text-navy-700'>
-                                        İnsan Kaynakları Yönetimi Lisans
-                                    </h3>
-                                    <p className='text-gray-600'>University of Pennsylvania</p>
-                                    <p className='text-gray-500'>2003 - 2007</p>
+                                    <h3 className='text-xl font-bold text-navy-700'>Halkla İlişkiler ve Tanıtım</h3>
+                                    <p className='text-gray-600'>Namık Kemal Üniversitesi</p>
+                                    <p className='text-gray-500'>2013 - 2016</p>
                                 </div>
                             </div>
                         </div>
@@ -193,24 +182,10 @@ export default function AboutPage() {
                             <div className='space-y-8'>
                                 <div className='space-y-2'>
                                     <h3 className='text-xl font-bold text-navy-700'>
-                                        Kıdemli İnsan Kaynakları Uzmanı (SPHR)
+                                        Stratejik İnsan Kaynakları Yönetimi
                                     </h3>
-                                    <p className='text-gray-600'>HR Certification Institute</p>
-                                    <p className='text-gray-500'>2018</p>
-                                </div>
-                                <div className='space-y-2'>
-                                    <h3 className='text-xl font-bold text-navy-700'>
-                                        Certified Diversity Professional (CDP)
-                                    </h3>
-                                    <p className='text-gray-600'>Institute for Diversity Certification</p>
-                                    <p className='text-gray-500'>2019</p>
-                                </div>
-                                <div className='space-y-2'>
-                                    <h3 className='text-xl font-bold text-navy-700'>
-                                        Project Management Professional (PMP)
-                                    </h3>
-                                    <p className='text-gray-600'>Project Management Institute</p>
-                                    <p className='text-gray-500'>2016</p>
+                                    <p className='text-gray-600'>IIENSTITU</p>
+                                    <p className='text-gray-500'>2022</p>
                                 </div>
                             </div>
                         </div>

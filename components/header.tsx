@@ -53,14 +53,14 @@ export default function Header() {
                     >
                         {t('Expertise')}
                     </Link>
-                    <Link
+                    {/* <Link
                         href='/blog-yazilari'
                         className={`text-sm font-medium transition-colors hover:text-navy-700 ${
                             isActive('/blog-yazilari') ? 'text-navy-700' : 'text-gray-500'
                         }`}
                     >
                         {t('Blog')}
-                    </Link>
+                    </Link> */}
                     <Link
                         href='/iletisim'
                         className={`text-sm font-medium transition-colors hover:text-navy-700 ${
@@ -111,7 +111,7 @@ export default function Header() {
                         >
                             {t('Expertise')}
                         </Link>
-                        <Link
+                        {/* <Link
                             href='/blog-yazilari'
                             className={`text-sm font-medium transition-colors hover:text-navy-700 ${
                                 isActive('/blog-yazilari') ? 'text-navy-700' : 'text-gray-500'
@@ -119,7 +119,7 @@ export default function Header() {
                             onClick={toggleMenu}
                         >
                             {t('Blog')}
-                        </Link>
+                        </Link> */}
                         <Link
                             href='/iletisim'
                             className={`text-sm font-medium transition-colors hover:text-navy-700 ${

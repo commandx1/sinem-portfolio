@@ -124,7 +124,7 @@ export default function Home() {
             </motion.section>
 
             {/* Latest Articles Preview */}
-            <motion.section
+           {/*  <motion.section
                 className='w-full py-12 md:py-24 lg:py-32 bg-white'
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -227,7 +227,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-            </motion.section>
+            </motion.section> */}
         </main>
     );
 }

@@ -60,7 +60,7 @@ export default function ContactPage() {
                                 </div>
                             </div>
                             <div className='pt-6'>
-                                <Link href='/cv.pdf'>
+                                <Link href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
                                         CV İndir
                                         <Download className='ml-2 h-4 w-4' />

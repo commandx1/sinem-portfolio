@@ -32,33 +32,33 @@ export default function Header() {
             Anasayfa
           </Link>
           <Link
-            href="/about"
-            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/about") ? "text-navy-700" : "text-gray-500"}`}
+            href="/hakkimda"
+            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/hakkimda") ? "text-navy-700" : "text-gray-500"}`}
           >
             Hakkımda
           </Link>
           <Link
-            href="/expertise"
-            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/expertise") ? "text-navy-700" : "text-gray-500"}`}
+            href="/uzmanliklar"
+            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/uzmanliklar") ? "text-navy-700" : "text-gray-500"}`}
           >
             Uzmanlıklar
           </Link>
           <Link
-            href="/blog"
-            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/blog") ? "text-navy-700" : "text-gray-500"}`}
+            href="/blog-yazilari"
+            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/blog-yazilari") ? "text-navy-700" : "text-gray-500"}`}
           >
             Blog
           </Link>
           <Link
-            href="/contact"
-            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/contact") ? "text-navy-700" : "text-gray-500"}`}
+            href="/iletisim"
+            className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/iletisim") ? "text-navy-700" : "text-gray-500"}`}
           >
             İletişim
           </Link>
         </nav>
         <div className="hidden md:flex">
-          <Link href="/contact">
-            <Button className="bg-navy-700 hover:bg-navy-800">Get In Touch</Button>
+          <Link href="/iletisim">
+            <Button className="bg-navy-700 hover:bg-navy-800">İletişime Geç</Button>
           </Link>
         </div>
         <button className="md:hidden" onClick={toggleMenu}>
@@ -76,35 +76,35 @@ export default function Header() {
               Anasayfa
             </Link>
             <Link
-              href="/about"
-              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/about") ? "text-navy-700" : "text-gray-500"}`}
+              href="/hakkimda"
+              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/hakkimda") ? "text-navy-700" : "text-gray-500"}`}
               onClick={toggleMenu}
             >
               Hakkımda
             </Link>
             <Link
-              href="/expertise"
-              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/expertise") ? "text-navy-700" : "text-gray-500"}`}
+              href="/uzmanliklar"
+              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/uzmanliklar") ? "text-navy-700" : "text-gray-500"}`}
               onClick={toggleMenu}
             >
               Uzmanlıklar
             </Link>
             <Link
-              href="/blog"
-              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/blog") ? "text-navy-700" : "text-gray-500"}`}
+              href="/blog-yazilari"
+              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/blog-yazilari") ? "text-navy-700" : "text-gray-500"}`}
               onClick={toggleMenu}
             >
               Blog
             </Link>
             <Link
-              href="/contact"
-              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/contact") ? "text-navy-700" : "text-gray-500"}`}
+              href="/iletisim"
+              className={`text-sm font-medium transition-colors hover:text-navy-700 ${isActive("/iletisim") ? "text-navy-700" : "text-gray-500"}`}
               onClick={toggleMenu}
             >
               İletişim
             </Link>
-            <Link href="/contact" onClick={toggleMenu}>
-              <Button className="w-full bg-navy-700 hover:bg-navy-800">Get In Touch</Button>
+            <Link href="/iletisim" onClick={toggleMenu}>
+              <Button className="w-full bg-navy-700 hover:bg-navy-800">İletişime Geç</Button>
             </Link>
           </div>
         </div>

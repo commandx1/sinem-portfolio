@@ -21,14 +21,16 @@ export default function Footer() {
                         <span className='sr-only'>LinkedIn</span>
                     </Link>
                     <Link
-                        href='/contact'
+                        href='/iletisim'
                         className='rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-pink-100 hover:text-navy-700'
                     >
                         <Mail className='h-5 w-5' />
                         <span className='sr-only'>E-posta</span>
                     </Link>
                     <Link
-                        href='/cv.pdf'
+                        href='/sinem-odali-belen-cv.pdf'
+                        target='_blank'
+                        rel='noopener noreferrer'
                         className='rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-pink-100 hover:text-navy-700'
                     >
                         <FileText className='h-5 w-5' />

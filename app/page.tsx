@@ -31,13 +31,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className='flex flex-col gap-2 min-[400px]:flex-row'>
-                                <Link href='/about'>
+                                <Link href='/hakkimda'>
                                     <Button className='bg-navy-700 hover:bg-navy-800'>
                                         Hakkımda Daha Fazla
                                         <ArrowRight className='ml-2 h-4 w-4' />
                                     </Button>
                                 </Link>
-                                <Link href='/contact'>
+                                <Link href='/iletisim'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
                                         İletişime Geç
                                     </Button>
@@ -93,25 +93,25 @@ export default function Home() {
                             <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
                                 <Award className='h-5 w-5' />
                             </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Performance Management</h3>
+                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Performans Yönetimi</h3>
                             <p className='text-gray-500'>
-                                Effective systems that drive employee growth and organizational success
+                                Çalışan gelişimini ve kurumsal başarıyı destekleyen etkili sistemler
                             </p>
                         </div>
                         <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
                             <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
                                 <BookOpen className='h-5 w-5' />
                             </div>
-                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Training & Development</h3>
+                            <h3 className='text-xl font-bold text-navy-700 mb-2'>Eğitim & Gelişim</h3>
                             <p className='text-gray-500'>
-                                Comprehensive programs that build skills and foster career advancement
+                                Becerileri geliştiren ve kariyer ilerlemesini destekleyen kapsamlı programlar
                             </p>
                         </div>
                     </div>
                     <div className='flex justify-center'>
-                        <Link href='/expertise'>
+                        <Link href='/uzmanliklar'>
                             <Button variant='outline' className='border-navy-700 text-navy-700'>
-                                View All Expertise Areas
+                                Tüm Uzmanlık Alanlarını Görüntüle
                                 <ArrowRight className='ml-2 h-4 w-4' />
                             </Button>
                         </Link>
@@ -210,7 +210,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className='flex justify-center'>
-                        <Link href='/blog'>
+                        <Link href='/blog-yazilari'>
                             <Button variant='outline' className='border-navy-700 text-navy-700'>
                                 Tüm Yazıları Gör
                                 <ArrowRight className='ml-2 h-4 w-4' />

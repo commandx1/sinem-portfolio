@@ -8,8 +8,10 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import useForm from '@/hooks/useForm';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 const ContactForm = () => {
+    const t = useTranslations('ContactPage');
     const { handleChange, handleSubmit, loading, formData } = useForm();
 
     return (
@@ -24,22 +26,16 @@ const ContactForm = () => {
                     <div className='flex flex-col items-center justify-center space-y-4 text-center'>
                         <div className='space-y-2'>
                             <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy-700'>
-                                İletişime Geç
+                                {t('Title')}
                             </h1>
-                            <p className='max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>
-                                Yeni fırsatları, İK ile ilgili zorlukları veya sadece bağlantı kurmayı her zaman
-                                memnuniyetle karşılarım.
-                            </p>
+                            <p className='max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>{t('Desc')}</p>
                         </div>
                     </div>
                     <div className='mx-auto grid gap-8 py-12 md:grid-cols-2'>
                         <div className='space-y-6'>
                             <div>
-                                <h2 className='text-2xl font-bold text-navy-700 mb-4'>İletişim Bilgileri</h2>
-                                <p className='text-gray-500 mb-6'>
-                                    İletişim formunu kullanarak ya da aşağıdaki kanallardan doğrudan bana
-                                    ulaşabilirsiniz:
-                                </p>
+                                <h2 className='text-2xl font-bold text-navy-700 mb-4'>{t('ContactInfo.Title')}</h2>
+                                <p className='text-gray-500 mb-6'>{t('ContactInfo.Desc')}</p>
                             </div>
                             <div className='flex items-center space-x-3'>
                                 <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700'>
@@ -67,7 +63,7 @@ const ContactForm = () => {
                             <div className='pt-6'>
                                 <Link href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
-                                        CV İndir
+                                        {t('ContactInfo.Download')}
                                         <Download className='ml-2 h-4 w-4' />
                                     </Button>
                                 </Link>
@@ -75,7 +71,7 @@ const ContactForm = () => {
                         </div>
                         <div className='space-y-4'>
                             <div>
-                                <h2 className='text-2xl font-bold text-navy-700 mb-4'>Mesaj Gönder</h2>
+                                <h2 className='text-2xl font-bold text-navy-700 mb-4'>{t('Form.Btn')}</h2>
                             </div>
                             <form onSubmit={handleSubmit} className='space-y-4'>
                                 <div className='grid gap-4 sm:grid-cols-2'>
@@ -84,14 +80,14 @@ const ContactForm = () => {
                                             htmlFor='name'
                                             className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
                                         >
-                                            Adınız
+                                            {t('Form.Name')}
                                         </label>
                                         <Input
                                             id='name'
                                             name='name'
                                             value={formData.name}
                                             onChange={handleChange}
-                                            placeholder='Adınız'
+                                            placeholder={t('Form.Name')}
                                             required
                                         />
                                     </div>
@@ -100,7 +96,7 @@ const ContactForm = () => {
                                             htmlFor='email'
                                             className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
                                         >
-                                            E-posta
+                                            {t('Form.Email')}
                                         </label>
                                         <Input
                                             id='email'
@@ -108,7 +104,7 @@ const ContactForm = () => {
                                             type='email'
                                             value={formData.email}
                                             onChange={handleChange}
-                                            placeholder='E-posta'
+                                            placeholder={t('Form.Email')}
                                             required
                                         />
                                     </div>
@@ -118,14 +114,14 @@ const ContactForm = () => {
                                         htmlFor='subject'
                                         className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
                                     >
-                                        Konu
+                                        {t('Form.Subject')}
                                     </label>
                                     <Input
                                         id='subject'
                                         name='subject'
                                         value={formData.subject}
                                         onChange={handleChange}
-                                        placeholder='Konu'
+                                        placeholder={t('Form.Subject')}
                                         required
                                     />
                                 </div>
@@ -134,14 +130,14 @@ const ContactForm = () => {
                                         htmlFor='message'
                                         className='text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70'
                                     >
-                                        Mesajınız
+                                        {t('Form.Message')}
                                     </label>
                                     <Textarea
                                         id='message'
                                         name='message'
                                         value={formData.message}
                                         onChange={handleChange}
-                                        placeholder='Mesajınız'
+                                        placeholder={t('Form.Message')}
                                         className='min-h-[150px]'
                                         required
                                     />
@@ -151,7 +147,7 @@ const ContactForm = () => {
                                     type='submit'
                                     className='w-full bg-navy-700 hover:bg-navy-800'
                                 >
-                                    Mesaj Gönder
+                                    {t('Form.Btn')}
                                 </Button>
                             </form>
                         </div>

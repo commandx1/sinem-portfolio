@@ -1,0 +1,183 @@
+{
+    "Link": {
+        "Home": "Home",
+        "About": "About",
+        "Expertise": "Expertise",
+        "Blog": "Blog",
+        "Contact": "Contact",
+        "GetInTouch": "Get in Touch"
+    },
+    "HomePage": {
+        "Pink": "HR&Admin Manager",
+        "ThePoint": "People are our most valuable asset",
+        "Desc1": "With over 8 years of experience in Human Resources and Administration, I develop people-centric strategies that support organizational success.",
+        "Desc2": "I combine strategic leadership with practical solutions to build strong organizational cultures and efficient administrative systems.",
+        "Btn1": "Learn More About Me",
+        "Btn2": "Contact Me",
+        "ExpertiseTitle": "Expertise Areas",
+        "ExpertiseDesc": "Expertise and proven experience in basic HR and administrative fields",
+        "Expertise1": "Recruitment & Talent",
+        "Expertise1Desc": "Strategic recruitment processes that align with corporate goals and attract the best talent",
+        "Expertise2": "Administration",
+        "Expertise2Desc": "Operational efficiency through efficient administrative systems",
+        "Expertise3": "Performance Management",
+        "Expertise3Desc": "Systems that support employee development and organizational success",
+        "Expertise4": "Education & Development",
+        "Expertise4Desc": "Comprehensive programs that develop skills and advance careers",
+        "ExpertiseAll": "View All Expertise Areas",
+        "LatestBlog": "Latest Blog Posts",
+        "LatestBlogDesc": "Thoughts on modern HR practices and workplace dynamics",
+        "AllBlogs": "View All Blogs"
+    },
+    "Footer": {
+        "Copyright": "© 2025 Sinem Odalı Belen. All rights reserved."
+    },
+    "AboutPage": {
+        "Title": "About Me",
+        "Pink": "My Journey in HR & Administrative Leadership",
+        "Desc1": "With over 8 years of senior-level Human Resources and Administrative Affairs experience, I have dedicated myself to building people-focused organizations where employees grow and businesses succeed.",
+        "Desc2": "By combining strategic vision with practical implementation, I ensure that HR initiatives align with corporate goals and meet the real needs of employees at all levels.",
+        "Desc3": "Throughout my career, I have led transformative projects in talent acquisition, performance management, organizational development, and administrative efficiency.",
+        "Btn1": "Contact Me",
+        "Btn2": "Download CV",
+        "Adventure": "Career Journey",
+        "AdventureDesc": "Timeline of my professional experiences and key achievements",
+        "job1": {
+            "Title": "HR & Administrative Affairs Manager",
+            "Desc": "VUR-MAK VURUSKAN MAKINA SAN. VE TIC. A.S",
+            "Bullet1": "Managed full-spectrum HR processes in a production facility with over 300 employees; developed systems covering the entire employee lifecycle including recruitment, onboarding, performance management, payroll, and exit interviews.",
+            "Bullet2": "Carried out all legal processes of the company in full compliance with Labor Law, Social Security Law, and Occupational Safety regulations; managed tasks such as missing day notifications, SGK accruals, BES transactions, e-visits, and official correspondence without errors.",
+            "Bullet3": "Digitized payroll and attendance tracking processes, increasing operational efficiency by 20% and optimizing the HR budget by 15% through cost analysis.",
+            "Bullet4": "Ensured uninterrupted and efficient execution of administrative services such as transportation, security, cleaning, and catering throughout the factory; achieved an 18% reduction in operational costs through streamlining.",
+            "Bullet5": "Ensured that employee personnel files were prepared and kept up to date in compliance with KVKK during onboarding and offboarding processes, achieving 100% compliance in audits.",
+            "Bullet6": "Integrated manual processes into digital systems in critical personnel management areas such as annual leave, salary advances, and temporary assignments, minimizing error rates.",
+            "Bullet7": "Handled passport and visa processes for blue- and white-collar employees to prevent delays in overseas assignments.",
+            "Bullet8": "Redesigned the performance evaluation system, increasing employee satisfaction by 32%; developed leadership development programs to support internal promotions, achieving a 40% internal promotion rate.",
+            "Bullet9": "Collaborated with OHS specialists to strengthen workplace health and safety culture; ensured full compliance with environmental regulations in waste disposal processes.",
+            "Bullet10": "Created development plans based on career management and training needs analysis, aligning personal goals of employees with corporate objectives.",
+            "Bullet11": "Organized employee satisfaction surveys and planned motivation-boosting events to enhance employee engagement.",
+            "Bullet12": "Monitored the Official Gazette daily and instantly integrated legal updates into processes.",
+            "Bullet13": "Utilized technology effectively across all HR processes with advanced knowledge of Microsoft Office and CANIAS ERP systems."
+        },
+        "Education": {
+            "Title": "Education",
+            "Part1": {
+                "Title": "Sociology",
+                "University": "Anadolu University",
+                "Date": "2023 - Ongoing"
+            },
+            "Part2": {
+                "Title": "Public Relations",
+                "University": "Namık Kemal University",
+                "Date": "2013 - 2016"
+            }
+        },
+        "Certififaces": {
+            "Title": "Certifications",
+            "Part1": {
+                "Title": "Strategic Human Resources Management",
+                "Organization": "IIENSTITU",
+                "Date": "2022"
+            }
+        }
+    },
+    "ExpertisePage": {
+        "Title": "Areas of Expertise",
+        "Desc": "Proven expertise and experience in core HR and administrative fields",
+        "Card1Title": "Recruitment & Talent Acquisition",
+        "Card1Desc": "Strategic recruitment processes that attract top talent aligned with corporate goals and culture.",
+        "Card1List": [
+            "Executive recruitment strategies",
+            "Employer branding development",
+            "Candidate assessment frameworks",
+            "Talent pool management"
+        ],
+        "Card2Title": "Administrative Affairs",
+        "Card2Desc": "Administrative systems that enhance operational efficiency and corporate effectiveness.",
+        "Card2List": [
+            "Process optimization",
+            "Facility management",
+            "Supplier relationship management",
+            "Administrative budget tracking"
+        ],
+        "Card3Title": "Performance Management",
+        "Card3Desc": "Effective systems that support employee development and corporate success through meaningful feedback.",
+        "Card3List": [
+            "Goal-setting frameworks",
+            "360-degree feedback systems",
+            "Performance evaluation processes",
+            "Recognition program design"
+        ],
+        "Card4Title": "Training & Development",
+        "Card4Desc": "Comprehensive programs that build skills at all levels and support career advancement.",
+        "Card4List": [
+            "Leadership development programs",
+            "Skill gap analysis",
+            "Learning management systems",
+            "Career planning frameworks"
+        ],
+        "Card5Title": "HR Analytics & Strategy",
+        "Card5Desc": "Data-driven approaches for workforce planning and strategic HR initiatives.",
+        "Card5List": [
+            "Workforce analytics applications",
+            "HR metrics development",
+            "Strategic workforce planning",
+            "HR technology selection"
+        ],
+        "Card6Title": "Compensation & Benefits",
+        "Card6Desc": "Strategic compensation and benefits programs to attract and retain top talent.",
+        "Card6List": [
+            "Total rewards strategy",
+            "Salary structure design",
+            "Benefits program management",
+            "Executive compensation"
+        ],
+        "Card7Title": "HR Policies & Compliance",
+        "Card7Desc": "Development and implementation of HR policies that ensure legal compliance and support corporate culture.",
+        "Card7List": [
+            "Policy development and review",
+            "Regulatory compliance management",
+            "Employee handbook creation",
+            "HR audit processes"
+        ],
+        "Card8Title": "Employee Engagement",
+        "Card8Desc": "Strategies and programs that foster a positive corporate culture and high employee engagement.",
+        "Card8List": [
+            "Engagement survey design",
+            "Culture-building initiatives",
+            "Employee experience mapping",
+            "Employee retention strategy development"
+        ],
+        "Card9Title": "Organizational Development",
+        "Card9Desc": "Strategic interventions that enhance corporate effectiveness and facilitate positive change.",
+        "Card9List": ["Change management", "Organization design", "Team effectiveness programs", "Leadership alignment"]
+    },
+    "BlogPage": {
+        "Title": "Blog",
+        "Desc": "Thoughts on modern HR practices and workplace dynamics"
+    },
+    "ContactPage": {
+        "Title": "Contact",
+        "Desc": "I'm always happy to connect—whether it's about new opportunities, HR challenges, or just to say hello.",
+        "Form": {
+            "Name": "Your Name",
+            "Email": "Email",
+            "Subject": "Subject",
+            "Message": "Your Message",
+            "Btn": "Send Message"
+        },
+        "ContactInfo": {
+            "Title": "Contact Information",
+            "Desc": "You can reach me directly via the form or through the channels below:",
+            "Download": "Download CV"
+        },
+        "Success": {
+            "Title": "Your message has been sent",
+            "Desc": "Thanks for your message! I'll get back to you as soon as possible."
+        },
+        "Error": {
+            "Title": "An error occurred while sending your message",
+            "Desc": "Please try again later."
+        }
+    }
+}

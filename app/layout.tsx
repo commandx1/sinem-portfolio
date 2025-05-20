@@ -6,6 +6,8 @@ import Header from '@/components/header';
 import Footer from '@/components/footer';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/toaster';
+import { getLocale, getMessages } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -39,21 +41,25 @@ export const metadata: Metadata = {
     }
 };
 
-export default function RootLayout({
+export default async function RootLayout({
     children
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    const [messages, locale] = await Promise.all([getMessages(), getLocale()]);
+
     return (
-        <html lang='tr' suppressHydrationWarning>
+        <html lang={locale} suppressHydrationWarning>
             <body className={inter.className}>
                 <ThemeProvider attribute='class' defaultTheme='light' enableSystem disableTransitionOnChange>
-                    <Toaster />
-                    <div className='flex min-h-screen flex-col'>
-                        <Header />
-                        {children}
-                        <Footer />
-                    </div>
+                    <NextIntlClientProvider messages={messages} locale={locale}>
+                        <Toaster />
+                        <div className='flex min-h-screen flex-col'>
+                            <Header />
+                            {children}
+                            <Footer />
+                        </div>
+                    </NextIntlClientProvider>
                 </ThemeProvider>
             </body>
         </html>

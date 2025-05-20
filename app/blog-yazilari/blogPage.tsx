@@ -5,8 +5,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useTranslations } from 'next-intl';
 
 const BlogPage = () => {
+    const t = useTranslations('BlogPage');
     return (
         <main className='flex flex-col min-h-screen'>
             <motion.section
@@ -19,10 +21,10 @@ const BlogPage = () => {
                     <div className='flex flex-col items-center justify-center space-y-4 text-center'>
                         <div className='space-y-2'>
                             <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy-700'>
-                                İK Blogu
+                                {t('Title')}
                             </h1>
                             <p className='max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>
-                                Modern İK uygulamaları ve işyeri dinamikleri üzerine düşünceler
+                                {t('Desc')}
                             </p>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import ContactForm from './contactForm';
+import Head from 'next/head';
 
 export const metadata = {
     title: 'İletişim | Sinem Odalı Belen',
@@ -6,5 +7,12 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-    return <ContactForm />;
+    return (
+        <>
+            <Head>
+                <link rel="canonical" href="https://sinemodalibelen.com/iletisim" />
+            </Head>
+            <ContactForm />
+        </>
+    );
 }

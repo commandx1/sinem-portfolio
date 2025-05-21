@@ -1,4 +1,5 @@
 import ExpertiseContent from './expertiseContent';
+import Head from 'next/head';
 
 export const metadata = {
     title: 'Uzmanlık Alanları | Sinem Odalı Belen',
@@ -6,5 +7,12 @@ export const metadata = {
 };
 
 export default function ExpertisePage() {
-    return <ExpertiseContent />;
+    return (
+        <>
+            <Head>
+                <link rel="canonical" href="https://sinemodalibelen.com/uzmanliklar" />
+            </Head>
+            <ExpertiseContent />
+        </>
+    );
 }

@@ -1,4 +1,5 @@
 import AboutContent from './aboutPage';
+import Head from 'next/head';
 
 export const metadata = {
     title: 'Hakkımda | Sinem Odalı Belen',
@@ -6,5 +7,12 @@ export const metadata = {
 };
 
 export default function AboutPage() {
-    return <AboutContent />;
+    return (
+        <>
+            <Head>
+                <link rel="canonical" href="https://sinemodalibelen.com/hakkimda" />
+            </Head>
+            <AboutContent />
+        </>
+    );
 }

@@ -61,12 +61,12 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div className='pt-6'>
-                                <Link href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
+                                <a href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
                                         {t('ContactInfo.Download')}
                                         <Download className='ml-2 h-4 w-4' />
                                     </Button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className='space-y-4'>

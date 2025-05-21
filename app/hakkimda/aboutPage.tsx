@@ -38,12 +38,12 @@ const AboutPage = () => {
                                         <ArrowRight className='ml-2 h-4 w-4' />
                                     </Button>
                                 </Link>
-                                <Link href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
+                                <a href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
                                         {t('Btn2')}
                                         <Download className='ml-2 h-4 w-4' />
                                     </Button>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className='flex items-center justify-center'>

@@ -37,7 +37,7 @@ export default function Footer() {
                         <Mail className='h-5 w-5' />
                         <span className='sr-only'>E-posta</span>
                     </Link>
-                    <Link
+                    <a
                         href='/sinem-odali-belen-cv.pdf'
                         target='_blank'
                         rel='noopener noreferrer'
@@ -45,7 +45,7 @@ export default function Footer() {
                     >
                         <FileText className='h-5 w-5' />
                         <span className='sr-only'>CV İndir</span>
-                    </Link>
+                    </a>
                 </div>
             </div>
         </footer>

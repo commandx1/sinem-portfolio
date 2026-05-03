@@ -61,7 +61,7 @@ const ContactForm = () => {
                                 </div>
                             </div>
                             <div className='pt-6'>
-                                <a href='/sinem-odali-belen-cv.pdf' target='_blank' rel='noopener noreferrer'>
+                                <a href='/SinemOdaliBelen_CV.pdf' target='_blank' rel='noopener noreferrer'>
                                     <Button variant='outline' className='border-navy-700 text-navy-700'>
                                         {t('ContactInfo.Download')}
                                         <Download className='ml-2 h-4 w-4' />

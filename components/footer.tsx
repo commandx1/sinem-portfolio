@@ -38,7 +38,7 @@ export default function Footer() {
                         <span className='sr-only'>E-posta</span>
                     </Link>
                     <a
-                        href='/sinem-odali-belen-cv.pdf'
+                        href='/SinemOdaliBelen_CV.pdf'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='rounded-full bg-gray-100 p-2 text-gray-600 transition-colors hover:bg-pink-100 hover:text-navy-700'

@@ -158,7 +158,7 @@
     },
     "ContactPage": {
         "Title": "Contact",
-        "Desc": "I'm always happy to connect—whether it's about new opportunities, HR challenges, or just to say hello.",
+        "Desc": "I'm always happy to connect, whether it's about new opportunities, HR challenges, or just to say hello.",
         "Form": {
             "Name": "Your Name",
             "Email": "Email",

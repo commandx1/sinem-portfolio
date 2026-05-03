@@ -1,135 +1,118 @@
-'use client';
+'use client'
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { ArrowRight, Award, BookOpen, Building, Users } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { motion } from 'framer-motion';
-import { useTranslations } from 'next-intl';
-import Head from 'next/head';
+import Image from 'next/image'
+import Link from 'next/link'
+import { ArrowRight, Award, BookOpen, Building, Users } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import { motion } from 'framer-motion'
+import { useTranslations } from 'next-intl'
+import Head from 'next/head'
 
 export default function Home() {
-    const t = useTranslations('HomePage');
+  const t = useTranslations('HomePage')
 
-    return (
-        <>
-            <Head>
-                <link rel="canonical" href="https://sinemodalibelen.com/" />
-            </Head>
-            <main className='flex flex-col min-h-screen'>
-                {/* Hero Section */}
-                <motion.section
-                    className='w-full py-12 md:py-24 lg:py-32 bg-white'
-                    initial={{ opacity: 0, y: 40 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7 }}
-                >
-                    <div className='container px-4 md:px-6'>
-                        <div className='grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]'>
-                            <div className='flex flex-col justify-center space-y-4'>
-                                <div className='space-y-2'>
-                                    <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy-700'>
-                                        Sinem Odalı Belen
-                                    </h1>
-                                    <p className='text-xl text-pink-300 font-medium'>{t('Pink')}</p>
-                                    <p className='max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400'>
-                                        "{t('ThePoint')}"
-                                    </p>
-                                </div>
-                                <div className='max-w-[600px] text-gray-500 dark:text-gray-400 space-y-4'>
-                                    <p>{t('Desc1')}</p>
-                                    <p>{t('Desc2')}</p>
-                                </div>
-                                <div className='flex flex-col gap-2 min-[400px]:flex-row'>
-                                    <Link href='/hakkimda'>
-                                        <Button className='bg-navy-700 hover:bg-navy-800'>
-                                            {t('Btn1')}
-                                            <ArrowRight className='ml-2 h-4 w-4' />
-                                        </Button>
-                                    </Link>
-                                    <Link href='/iletisim'>
-                                        <Button variant='outline' className='border-navy-700 text-navy-700'>
-                                            {t('Btn2')}
-                                        </Button>
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className='flex items-center justify-center'>
-                                <div className='relative h-[450px] max-w-[350px] w-full overflow-hidden rounded-xl'>
-                                    <Image
-                                        src='/sinem.jpeg?height=900&width=700'
-                                        alt='Sinem Odalı Belen - HR Executive'
-                                        fill
-                                        className='object-cover w-full h-full'
-                                        priority
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </motion.section>
+  return (
+    <>
+      <Head>
+        <link rel='canonical' href='https://sinemodalibelen.com/' />
+      </Head>
+      <main className='flex flex-col min-h-screen'>
+        {/* Hero Section */}
+        <motion.section
+          className='w-full py-12 md:py-24 bg-white'
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+        >
+          <div className='container px-4 md:px-6'>
+            <div className='flex flex-col justify-center items-center text-center space-y-4'>
+              <div className='space-y-2'>
+                <h1 className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-navy-700'>
+                  Sinem Odalı Belen
+                </h1>
+                <p className='text-xl text-pink-300 font-medium'>{t('Pink')}</p>
+                <p className='max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400'>"{t('ThePoint')}"</p>
+              </div>
+              <div className='max-w-[600px] text-gray-500 dark:text-gray-400 space-y-4'>
+                <p>{t('Desc1')}</p>
+                <p>{t('Desc2')}</p>
+              </div>
+              <div className='flex flex-col gap-2 min-[400px]:flex-row'>
+                <Link href='/hakkimda'>
+                  <Button className='bg-navy-700 hover:bg-navy-800'>
+                    {t('Btn1')}
+                    <ArrowRight className='ml-2 h-4 w-4' />
+                  </Button>
+                </Link>
+                <Link href='/iletisim'>
+                  <Button variant='outline' className='border-navy-700 text-navy-700'>
+                    {t('Btn2')}
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </motion.section>
 
-                {/* Expertise Preview Section */}
-                <motion.section
-                    className='w-full py-12 md:py-24 lg:py-32 bg-beige-50'
-                    initial={{ opacity: 0, y: 40 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.7, delay: 0.2 }}
-                >
-                    <div className='container px-4 md:px-6'>
-                        <div className='flex flex-col items-center justify-center space-y-4 text-center'>
-                            <div className='space-y-2'>
-                                <h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-navy-700'>
-                                    {t('ExpertiseTitle')}
-                                </h2>
-                                <p className='max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>
-                                    {t('ExpertiseDesc')}
-                                </p>
-                            </div>
-                        </div>
-                        <div className='mx-auto grid gap-6 py-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-12'>
-                            <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
-                                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
-                                    <Users className='h-5 w-5' />
-                                </div>
-                                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise1')}</h3>
-                                <p className='text-gray-500'>{t('Expertise1Desc')}</p>
-                            </div>
-                            <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
-                                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
-                                    <Building className='h-5 w-5' />
-                                </div>
-                                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise2')}</h3>
-                                <p className='text-gray-500'>{t('Expertise2Desc')}</p>
-                            </div>
-                            <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
-                                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
-                                    <Award className='h-5 w-5' />
-                                </div>
-                                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise3')}</h3>
-                                <p className='text-gray-500'>{t('Expertise3Desc')}</p>
-                            </div>
-                            <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
-                                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
-                                    <BookOpen className='h-5 w-5' />
-                                </div>
-                                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise4')}</h3>
-                                <p className='text-gray-500'>{t('Expertise4Desc')}</p>
-                            </div>
-                        </div>
-                        <div className='flex justify-center'>
-                            <Link href='/uzmanliklar'>
-                                <Button variant='outline' className='border-navy-700 text-navy-700'>
-                                    {t('ExpertiseAll')}
-                                    <ArrowRight className='ml-2 h-4 w-4' />
-                                </Button>
-                            </Link>
-                        </div>
-                    </div>
-                </motion.section>
+        {/* Expertise Preview Section */}
+        <motion.section
+          className='w-full py-12 md:py-24 lg:py-32 bg-beige-50'
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+        >
+          <div className='container px-4 md:px-6'>
+            <div className='flex flex-col items-center justify-center space-y-4 text-center'>
+              <div className='space-y-2'>
+                <h2 className='text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-navy-700'>
+                  {t('ExpertiseTitle')}
+                </h2>
+                <p className='max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400'>{t('ExpertiseDesc')}</p>
+              </div>
+            </div>
+            <div className='mx-auto grid gap-6 py-12 md:grid-cols-2 lg:grid-cols-4 lg:gap-12'>
+              <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
+                  <Users className='h-5 w-5' />
+                </div>
+                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise1')}</h3>
+                <p className='text-gray-500'>{t('Expertise1Desc')}</p>
+              </div>
+              <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
+                  <Building className='h-5 w-5' />
+                </div>
+                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise2')}</h3>
+                <p className='text-gray-500'>{t('Expertise2Desc')}</p>
+              </div>
+              <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
+                  <Award className='h-5 w-5' />
+                </div>
+                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise3')}</h3>
+                <p className='text-gray-500'>{t('Expertise3Desc')}</p>
+              </div>
+              <div className='group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-md'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-pink-100 text-navy-700 mb-4'>
+                  <BookOpen className='h-5 w-5' />
+                </div>
+                <h3 className='text-xl font-bold text-navy-700 mb-2'>{t('Expertise4')}</h3>
+                <p className='text-gray-500'>{t('Expertise4Desc')}</p>
+              </div>
+            </div>
+            <div className='flex justify-center'>
+              <Link href='/uzmanliklar'>
+                <Button variant='outline' className='border-navy-700 text-navy-700'>
+                  {t('ExpertiseAll')}
+                  <ArrowRight className='ml-2 h-4 w-4' />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </motion.section>
 
-                {/* Latest Articles Preview */}
-                {/*  <motion.section
+        {/* Latest Articles Preview */}
+        {/*  <motion.section
                     className='w-full py-12 md:py-24 lg:py-32 bg-white'
                     initial={{ opacity: 0, y: 40 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -233,7 +216,7 @@ export default function Home() {
                         </div>
                     </div>
                 </motion.section> */}
-            </main>
-        </>
-    );
+      </main>
+    </>
+  )
 }
